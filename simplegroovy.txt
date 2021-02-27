@@ -8,8 +8,8 @@ pipeline {
   environment {
         AZURE_SUBSCRIPTION_ID='783ed336-9aff-4c71-b6c0-8efb879033a5'
         AZURE_TENANT_ID='cc0361ca-deca-4db3-b421-ee1ca53c7f00'
-        AZURE_CLIENT_SECRET='6a174562-61ac-45e2-b6b9-334a797c00ce'
-        AZURE_CLIENT_ID='SWKn1aWnNy-tu_Jn28_~GVdd.5y1gyp2eM'
+        AZURE_CLIENT_SECRET='SWKn1aWnNy-tu_Jn28_~GVdd.5y1gyp2eM'
+        AZURE_CLIENT_ID='6a174562-61ac-45e2-b6b9-334a797c00ce'
     }
 
   stages {
