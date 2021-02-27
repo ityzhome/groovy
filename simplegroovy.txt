@@ -19,13 +19,7 @@ pipeline {
         sh 'az account set -s $AZURE_SUBSCRIPTION_ID'
       }
     }
-    stage('Stage 2') {
-      steps {
-        echo 'Hello world twice!'
 
-    
-      }
-    }
   }
 }
 }
