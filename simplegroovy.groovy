@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Stage 1') {
       steps {
-        withCredentials([azureServicePrincipal('azure_service_principal')]) {
+        withCredentials([azureServicePrincipal('withplugin')]) {
         echo 'Hello world!'
         sh ''
           az login --service-principal -u $AZURE_CLIENT_ID -p $AZURE_CLIENT_SECRET -t $AZURE_TENANT_ID
