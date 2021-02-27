@@ -8,6 +8,8 @@ pipeline {
     stage('Stage 1') {
       steps {
         echo 'Hello world!'
+      }
+    }
     stage('Stage 2') {
       steps {
         echo 'Hello world twice!'
@@ -17,12 +19,3 @@ pipeline {
     }
   }
 }
-
-
-
-
-
-//def str = "Hello world"
-//def num =0
-//def arg = ["Groovy","Java","Python",”nodeJS”]
-//println arg.class
